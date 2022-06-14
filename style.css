@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+img {
+    border-radius: 250px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto 20px auto auto;
+    padding: 0;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
