@@ -14,14 +14,14 @@ body {
     border-radius: 250px;
     width: 100px;
     height: 100px;
-    margin: 5px;
+    margin: 10px auto 10px 255px;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    margin: auto 20px auto auto;
+    margin: auto 255px auto auto;
     padding: 0;
     gap: 30px;
 }
@@ -34,7 +34,7 @@ a {
 .header-sub {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 100px;
     align-content: center;
     justify-content: center;
     padding-top: 80px;
