@@ -1,12 +1,16 @@
 body {
     margin: 0;
 }
+
 .header {
     background-color: #1F2937;
+}
+
+.header-nav {
     display: flex;
 }
 
-img {
+.logo {
     border-radius: 250px;
     width: 100px;
     height: 100px;
@@ -25,4 +29,53 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+.header-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-info .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 400px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.header-info .subinfo {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+}
+
+.header-info button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.imagen-header {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.header-img {
+    width: 400px;
+    height: 220px;
 }
