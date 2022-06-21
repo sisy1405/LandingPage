@@ -79,3 +79,61 @@ a {
     width: 400px;
     height: 220px;
 }
+
+.content-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding-bottom: 150px;
+}
+
+.content img {
+    width: 50px;
+    height: 50px;
+}
+
+.content-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text {
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-content {
+    font-style: italic;
+    width: 1000px;
+    
+}
+
+.quote-autor {
+    font-weight: bold;
+    margin-left: 700px;
+}
+
+
+
