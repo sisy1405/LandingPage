@@ -61,7 +61,7 @@ a {
     width: 400px;
 }
 
-.header-info button {
+button {
     background-color: #3882F6;
     color: #E5E7EB;
     width: fit-content;
@@ -135,5 +135,33 @@ a {
     margin-left: 700px;
 }
 
+.action {
+    display: flex;
+    gap: 100px;
+    margin: 100px auto;
+    background-color: #3882F6;
+    width: 1000px;
+}
 
+.action-text p{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.action-text .first-text {
+    padding: 40px 40px 0px 80px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.action-text .second-text {
+    padding: 0px 40px 40px 80px;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+}
 
